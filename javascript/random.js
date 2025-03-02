@@ -8,18 +8,18 @@ document.getElementById('random-color').addEventListener("click",function(event)
 
 // value parseInt part
 
-function innerTextbyid (id){
-    const value = document .getElementById(id).innerText
-    const convertedValue = parseInt(value)
-    return convertedValue;
+// function innerTextbyid (id){
+//     const value = document .getElementById(id).innerText
+//     const convertedValue = parseInt(value)
+//     return convertedValue;
 
-}
+// }
 
-// innerTextbyid value part
+// // innerTextbyid value part
 
-function sumValuebyid ( id , value){
-    document.getElementById(id).innerText = value;
-}
+// function sumValuebyid ( id , value){
+//     document.getElementById(id).innerText = value;
+// }
 
 
 //   today date part
