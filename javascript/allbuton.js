@@ -1,4 +1,3 @@
-alert('this is')
 
 
  const discreaseValue = innerTextbyid("discrease")
@@ -41,18 +40,19 @@ return sum
 // const one = innerTextbyid ("one")
 // const increase = innerTextbyid ("increase")
 // const complete = document .getElementById("Completed").innerText
+const mobile2 = document .getElementById("Mobile2").innerText
+            
 
  
  document.getElementById('Completed2').addEventListener("click",function(){
     
         alert( "board update successfully")
 
-        if ( sum = 5) {
-            alert ()
-        }
+        
 
     const sum3  = discreaseValue -2
     sumValuebyid ("discrease",sum3 )
+    
 
     const sum2 = increase + 2
     sumValuebyid ("increase",sum2 )
@@ -60,14 +60,154 @@ return sum
     const activity = document.getElementById("activity");
     const ptag =document.createElement("p")
 
-    ptag.innerText=`You have Complete ${mobile} at ${timeString} PM`
+    ptag.innerText=`You have Complete ${mobile2} at ${timeString} PM |Am`
     console.log(ptag)
 
  activity.appendChild(ptag)
 document.getElementById('Completed2').setAttribute('disabled', true)
 
 
+
 })
+
+
+const mobile3 = document .getElementById("Mobile3").innerText
+            
+
+ 
+ document.getElementById('Completed3').addEventListener("click",function(event){
+
+    
+        alert( "board update successfully")
+    //     const buto = event.target.innerText= Completed ? 1 : -1
+
+       
+  
+  
+
+    //  const sum3  = Math.min ( 6 , discreaseValue - buto)
+    // sumValuebyid ("discrease",sum3 )
+    const sum3  = discreaseValue -3
+    sumValuebyid ("discrease",sum3 )
+    
+
+    const sum2 = increase + 3
+    sumValuebyid ("increase",sum2 )
+
+    const activity = document.getElementById("activity");
+    const ptag =document.createElement("p")
+
+    ptag.innerText=`You have Complete ${mobile3} at ${timeString} PM |Am`
+    console.log(ptag)
+
+ activity.appendChild(ptag)
+document.getElementById('Completed3').setAttribute('disabled', true)
+
+
+})
+
+const mobile4 = document .getElementById("Mobile4").innerText
+            
+
+ 
+ document.getElementById('Completed4').addEventListener("click",function(){
+    
+        alert( "board update successfully")
+
+        
+
+    const sum3  = discreaseValue -4
+    sumValuebyid ("discrease",sum3 )
+    
+
+    const sum2 = increase + 4
+    sumValuebyid ("increase",sum2 )
+
+    const activity = document.getElementById("activity");
+    const ptag =document.createElement("p")
+
+    ptag.innerText=`You have Complete ${mobile4} at ${timeString} PM |Am`
+    console.log(ptag)
+
+ activity.appendChild(ptag)
+document.getElementById('Completed4').setAttribute('disabled', true)
+
+
+
+})
+
+
+const mobile5 = document .getElementById("Mobile5").innerText
+            
+
+ 
+ document.getElementById('Completed5').addEventListener("click",function(){
+    
+        alert( "board update successfully")
+
+        
+
+    const sum3  = discreaseValue -5
+    sumValuebyid ("discrease",sum3 )
+    
+
+    const sum2 = increase + 5
+    sumValuebyid ("increase",sum2 )
+
+    const activity = document.getElementById("activity");
+    const ptag =document.createElement("p")
+
+    ptag.innerText=`You have Complete ${mobile5} at ${timeString} PM |Am`
+    console.log(ptag)
+
+ activity.appendChild(ptag)
+document.getElementById('Completed5').setAttribute('disabled', true)
+return sum2
+
+
+})
+
+
+const mobile6 = document .getElementById("Mobile6").innerText
+            
+
+ 
+ document.getElementById('Completed6').addEventListener("click",function(){
+    
+        alert( "board update successfully")
+
+        alert( "board update successfully")
+
+        
+
+    const sum3  = discreaseValue -6
+    sumValuebyid ("discrease",sum3 )
+    
+
+    const sum2 = increase + 6
+    sumValuebyid ("increase",sum2 )
+
+    const activity = document.getElementById("activity");
+    const ptag =document.createElement("p")
+
+    ptag.innerText=`You have Complete ${mobile6} at ${timeString} PM |Am`
+    console.log(ptag)
+
+ activity.appendChild(ptag)
+document.getElementById('Completed6').setAttribute('disabled', true)
+return sum2
+
+
+})
+
+
+
+
+
+
+
+// go to another html file   
+
 document.getElementById('enter').addEventListener("click",function(){
     window.location.href = "another.html"
 })
