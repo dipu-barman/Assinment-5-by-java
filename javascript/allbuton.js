@@ -1,23 +1,23 @@
 
 
  const discreaseValue = innerTextbyid("discrease")
-const one = innerTextbyid ("one")
+// const one = innerTextbyid ("one")
 const increase= innerTextbyid ("increase")
 const mobile = document .getElementById("Mobile").innerText
             
             
-
+// button 1 click part
 
 document.getElementById('Completed').addEventListener("click",function(){
     alert( "board update successfully")
     
 
-    const sum  = discreaseValue - one
+    const sum  = discreaseValue - 1
 
     sumValuebyid ("discrease",sum )
 
 
-    const sum2 = increase + one
+    const sum2 = increase + 1
     sumValuebyid ("increase",sum2 )
 
     const activity = document.getElementById("activity");
@@ -35,26 +35,18 @@ return sum
 
 
 
-// button - 2 -
-// const discreaseValue = innerTextbyid("discrease")
-// const one = innerTextbyid ("one")
-// const increase = innerTextbyid ("increase")
-// const complete = document .getElementById("Completed").innerText
+// button 2 click part
+
 const mobile2 = document .getElementById("Mobile2").innerText
             
-
- 
- document.getElementById('Completed2').addEventListener("click",function(){
+document.getElementById('Completed2').addEventListener("click",function(){
     
         alert( "board update successfully")
 
-        
-
-    const sum3  = discreaseValue -2
+        const sum3  = discreaseValue -2
     sumValuebyid ("discrease",sum3 )
     
-
-    const sum2 = increase + 2
+   const sum2 = increase + 2
     sumValuebyid ("increase",sum2 )
 
     const activity = document.getElementById("activity");
@@ -70,23 +62,20 @@ document.getElementById('Completed2').setAttribute('disabled', true)
 
 })
 
+// button 3 click part
+
 
 const mobile3 = document .getElementById("Mobile3").innerText
             
+document.getElementById('Completed3').addEventListener("click",function(event){
 
- 
- document.getElementById('Completed3').addEventListener("click",function(event){
+     alert( "board update successfully")
 
-    
-        alert( "board update successfully")
     //     const buto = event.target.innerText= Completed ? 1 : -1
-
-       
-  
-  
-
-    //  const sum3  = Math.min ( 6 , discreaseValue - buto)
+//  const sum3  = Math.min ( 6 , discreaseValue - buto)
     // sumValuebyid ("discrease",sum3 )
+
+
     const sum3  = discreaseValue -3
     sumValuebyid ("discrease",sum3 )
     
@@ -106,20 +95,17 @@ document.getElementById('Completed3').setAttribute('disabled', true)
 
 })
 
+// button 4 click part
+
 const mobile4 = document .getElementById("Mobile4").innerText
             
-
- 
- document.getElementById('Completed4').addEventListener("click",function(){
+document.getElementById('Completed4').addEventListener("click",function(){
     
         alert( "board update successfully")
 
-        
-
-    const sum3  = discreaseValue -4
+        const sum3  = discreaseValue -4
     sumValuebyid ("discrease",sum3 )
     
-
     const sum2 = increase + 4
     sumValuebyid ("increase",sum2 )
 
@@ -136,18 +122,15 @@ document.getElementById('Completed4').setAttribute('disabled', true)
 
 })
 
+// button 5 click part
 
 const mobile5 = document .getElementById("Mobile5").innerText
             
-
- 
- document.getElementById('Completed5').addEventListener("click",function(){
+document.getElementById('Completed5').addEventListener("click",function(){
     
         alert( "board update successfully")
 
-        
-
-    const sum3  = discreaseValue -5
+        const sum3  = discreaseValue -5
     sumValuebyid ("discrease",sum3 )
     
 
@@ -167,24 +150,22 @@ return sum2
 
 })
 
+// button 6 click part
+
 
 const mobile6 = document .getElementById("Mobile6").innerText
             
 
- 
  document.getElementById('Completed6').addEventListener("click",function(){
     
         alert( "board update successfully")
 
         alert( "board update successfully")
 
-        
-
-    const sum3  = discreaseValue -6
+        const sum3  = discreaseValue -6
     sumValuebyid ("discrease",sum3 )
     
-
-    const sum2 = increase + 6
+     const sum2 = increase + 6
     sumValuebyid ("increase",sum2 )
 
     const activity = document.getElementById("activity");
@@ -199,10 +180,6 @@ return sum2
 
 
 })
-
-
-
-
 
 
 

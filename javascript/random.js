@@ -1,8 +1,12 @@
 
+// click button change col0r
+
 document.getElementById('random-color').addEventListener("click",function(event){
     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
     document.body.style.backgroundColor = randomColor
 })
+
+// value parseInt part
 
 function innerTextbyid (id){
     const value = document .getElementById(id).innerText
@@ -10,6 +14,8 @@ function innerTextbyid (id){
     return convertedValue;
 
 }
+
+// innerTextbyid value part
 
 function sumValuebyid ( id , value){
     document.getElementById(id).innerText = value;
