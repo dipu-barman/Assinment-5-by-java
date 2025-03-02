@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/24eab9ed85.js" crossorigin="anonymous"></script>
+
+<style>
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+</style>
+
+</head>
+<body class="bg-[#F4F7FF] pb-10 poppins-thin">
+    <header class="p-7">
+        <nav class="bg-[#FFFFFF]  w-10/12 mx-auto flex justify-between rounded-lg ">
+            <div class="flex p-5 gap-3">
+                <img class="h-14" src="assets/logo.png" alt="">
+                <p class="text-4xl font-normal">Dev<span class="font-bold">Board</span></p>
+            </div>
+            <div class="flex p-5 gap-3 ">
+
+               <div class="bg-[#F4F7FF] flex gap-2 px-7 py-3 rounded-full">
+                <img src="assets/checkbox.png" alt="">
+                <h2 id="increase" class="text-3xl font-bold">23</h2>
+
+                </div>
+                <img id="random-color" class="h-14 " src="assets/theme-btn.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <section class=" w-10/12 mx-auto gap-8 flex justify-between ">
+        <div class=" bg-[#FFFFFF] w-9/12 p-6 rounded-xl">
+            <div class="flex gap-5  justify-between">
+
+                <div class="flex bg-[#F4F7FF] px-10 py-8 gap-3 rounded-xl">
+                    <img class="h-10" src="assets/checkbox.png" alt="">
+                    <div>
+                        <h5 class="font-normal">Task Assigned</h5>
+                        <p id="discrease" class="text-3xl font-bold">06</p>
+                    </div>
+                </div>
+
+                <div id="enter" class="bg-[#3752FD] flex px-8  rounded-lg py-5 w-96 gap-3 ">
+                    <img class="h-16" src="assets/board.png" alt="">
+                    <h2 class="text-[#FFFFFF] text-xl font-medium">Discover Something <br> New Today!</h2>
+
+                </div>
+
+                <div  class="flex bg-[#F4F7FF] rounded-lg px-10 py-8 gap-3">
+                    <img class="h-10" src="assets/calender.png" alt="">
+                    <p id="time" class="w-20 text-lg font-medium"></p>
+                </div>
+
+            </div>
+
+            <div class="mt-10 grid grid-cols-3 gap-5">
+
+                
+                <div class="bg-[#F4F7FF] p-4 rounded-xl  space-y-4">
+                    <p class="bg-[#FFFFFF] w-28 p-3 rounded-xl font-medium">ShopEase</p>
+                    <h2 id="Mobile" class="font-semibold text-xl">Fix Mobile Button Issue </h2>
+                    <p class="bg-[#FFFFFF] p-2 rounded-xl w-64  h-20   overflow-hidden overflow-y-scroll font-extralight "> Debug using Chrome DevTools, check for overlapping  elements,  ....... <br>and ensure onClick works properly and ensure onClick works properly</p>
+                        <div class="flex gap-5">
+                            
+                            <p class="text-[#00303C] font-extralight">Deadline <br><span class="font-semibold">21 March 2025</span></p>
+                            <button id="Completed" class="btn btn-primary">Completed</button>
+                            <p id="one" class="hidden">1</p>
+                        </div>
+
+                </div>
+
+                <div class="bg-[#F4F7FF] p-4 rounded-xl  space-y-4">
+                    <p class="bg-[#FFFFFF] w-28 p-3 rounded-xl font-medium">CloudSync</p>
+                    <h2 id="Mobile" class="font-semibold text-xl">Add Dark Mode </h2>
+                    <p class="bg-[#FFFFFF] p-2 rounded-xl w-64  h-20   overflow-hidden overflow-y-scroll font-extralight "> Store the user's preference in localStorage, update CSS variables dynamically,......... <br>and apply a smooth transition effect.</p>
+                        <div class="flex gap-5">
+                            
+                            <p class="text-[#00303C] font-extralight">Deadline <br><span class="font-semibold">21 March 2025</span></p>
+                            <button id="Completed2" class="btn btn-primary">Completed</button>
+                            <p id="one" class="hidden">1</p>
+                        </div>
+
+                </div>
+
+                <div class="bg-[#F4F7FF] p-4 rounded-xl  space-y-4">
+                    <p class="bg-[#FFFFFF] w-28 p-3 rounded-xl font-medium text-center">SwiftPay</p>
+                    <h2 id="Mobile" class="font-semibold text-xl">Optimize  Home page  </h2>
+                    <p class="bg-[#FFFFFF] p-2 rounded-xl w-64  h-20   overflow-hidden overflow-y-scroll font-extralight "> Debug using Chrome DevTools, check for overlapping  elements,  ....... <br>and ensure onClick works properly and ensure onClick works properly</p>
+                        <div class="flex gap-5">
+                            
+                            <p class="text-[#00303C] font-extralight">Deadline <br><span class="font-semibold">21 March 2025</span></p>
+                            <button id="Completed" class="btn btn-primary">Completed</button>
+                            <p id="one" class="hidden">1</p>
+                        </div>
+
+                </div>
+
+                <div class="bg-[#F4F7FF] p-4 rounded-xl  space-y-4">
+                    <p class="bg-[#FFFFFF] w-28 p-3 rounded-xl font-medium text-center">Meta</p>
+                    <h2 id="Mobile" class="font-semibold text-xl">Add new emoji 🤲 </h2>
+                    <p class="bg-[#FFFFFF] p-2 rounded-xl w-64  h-20   overflow-hidden overflow-y-scroll font-extralight "> Debug using Chrome DevTools, check for overlapping  elements,  ....... <br>and ensure onClick works properly and ensure onClick works properly</p>
+                        <div class="flex gap-5">
+                            
+                            <p class="text-[#00303C] font-extralight">Deadline <br><span class="font-semibold">21 March 2025</span></p>
+                            <button id="Completed" class="btn btn-primary">Completed</button>
+                            <p id="one" class="hidden">1</p>
+                        </div>
+
+                </div>
+
+                <div class="bg-[#F4F7FF] p-4 rounded-xl  space-y-4">
+                    <p class="bg-[#FFFFFF] w-32 p-3 rounded-xl font-medium text-center">Google LLC</p>
+                    <h2 id="Mobile" class="font-semibold text-xl">Integrate OpenAI API  </h2>
+                    <p class="bg-[#FFFFFF] p-2 rounded-xl w-64  h-20   overflow-hidden overflow-y-scroll font-extralight "> Debug using Chrome DevTools, check for overlapping  elements,  ....... <br>and ensure onClick works properly and ensure onClick works properly</p>
+                        <div class="flex gap-5">
+                            
+                            <p class="text-[#00303C] font-extralight">Deadline <br><span class="font-semibold">21 March 2025</span></p>
+                            <button id="Completed" class="btn btn-primary">Completed</button>
+                            <p id="one" class="hidden">1</p>
+                        </div>
+
+                </div>
+
+                <div class="bg-[#F4F7FF] p-4 rounded-xl  space-y-4">
+                    <p class="bg-[#FFFFFF] w-32 p-3 rounded-xl font-medium text-center">Glassdoar</p>
+                    <h2 id="Mobile" class="font-semibold text-xl">Improve Job searching   </h2>
+                    <p class="bg-[#FFFFFF] p-2 rounded-xl w-64  h-20   overflow-hidden overflow-y-scroll font-extralight "> Debug using Chrome DevTools, check for overlapping  elements,  ....... <br>and ensure onClick works properly and ensure onClick works properly</p>
+                        <div class="flex gap-5">
+                            
+                            <p class="text-[#00303C] font-extralight">Deadline <br><span class="font-semibold">21 March 2025</span></p>
+                            <button id="Completed" class="btn btn-primary">Completed</button>
+                            <p id="one" class="hidden">1</p>
+                        </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+        <div class="bg-[#FFFFFF]  w-3/12 rounded-xl p-5 text-center ">
+            <div class="border-b-4 border-dashed">
+                <div class="flex pl-20">
+                    <img src="assets/activity.png" alt="" >
+                <p class="font-normal">Activity Log</p>
+                </div>
+                <button id="Clear" class="btn btn-primary mt-4 mb-5">Clear History</button>
+            </div>
+            <div id="activity">
+                
+            </div>
+        </div>
+
+
+    </section>
+    <script src="javascript/random.js"></script>
+     <script src="javascript/allbuton.js"></script>
+    
+</body>
+</html>
