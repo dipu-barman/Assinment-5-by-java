@@ -29,3 +29,31 @@ It focuses on DOM manipulation, event handling, and dynamic UI updates to create
 1. Clone the repository:
    ```bash
    git clone https://github.com/dipu-barman/Assinment-5-by-java.git
+
+      Navigate to project directory
+
+bash
+- Copy
+Edit
+cd your-repo-name
+- Install frontend dependencies
+
+
+
+
+
+- Run frontend
+
+
+
+bash
+- Copy
+Edit
+cd ../server
+- npm run dev
+- Open browser at
+
+arduino
+- Copy
+Edit
+- http://localhost:3000
