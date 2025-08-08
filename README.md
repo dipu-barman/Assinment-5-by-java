@@ -33,27 +33,4 @@ It focuses on DOM manipulation, event handling, and dynamic UI updates to create
       Navigate to project directory
 
 bash
-- Copy
-Edit
-cd your-repo-name
-- Install frontend dependencies
-
-
-
-
-
-- Run frontend
-
-
-
-bash
-- Copy
-Edit
-cd ../server
-- npm run dev
-- Open browser at
-
-arduino
-- Copy
-Edit
-- http://localhost:3000
+- cd Assinment-5-by-java
